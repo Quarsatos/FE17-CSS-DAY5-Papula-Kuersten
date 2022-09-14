@@ -13,19 +13,24 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 8px;
-  background-color: darkslategrey;
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(89, 86, 81) 100%);
+  border-radius: 5px;
+  border: 1px solid white;
 }
 .navbar .navlinks {
   text-decoration: none;
   color: white;
-  background-color: grey;
+  background-color: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(89, 86, 81) 100%);
+  border: 1px solid white;
+  font-family: Arial, Comic;
   padding: 4px 16px;
   margin: 10px 0;
   border-radius: 5px;
 }
 .navbar .navlinks:hover {
-  background-color: red;
+  background-color: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(89, 86, 81) 100%);
   transform: scale(1.2);
+  border: 3px solid white;
 }
 
 .container {
@@ -59,6 +64,18 @@ body {
   text-align: center;
   margin-top: 2em;
   font-size: 5em;
+}
+
+#logo {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+#logo:hover {
+  transform: scale(1.1);
+  border: 4px solid white;
 }
 
 @media screen and (max-width: 390px) {
