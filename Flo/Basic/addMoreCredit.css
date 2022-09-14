@@ -1,0 +1,73 @@
+#logo {
+	height: 100px;
+    border-radius: 50%;
+
+}
+#container {
+	clear:  both;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+	background-color: #111;
+	border-radius: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    height: 70%;
+    border: double orange 5px;
+    box-shadow: black 10px 8px 6px 4px;
+
+
+	
+}
+
+
+body {
+    max-width: 800px;
+    width: 75%;
+    height: 800px;;
+    margin: auto;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(255,166,0,1) 0%, rgb(255, 255, 255) 35%, rgba(255,166,0,1) 100%);
+  	color: orange;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    font-family: 'Happy Monkey', cursive;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
+    border:double orange 5px;
+    width: 60%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 35% 0 0 35%;
+    font-size: 15px;
+    box-shadow: black 10px 8px 6px 4px;
+    padding-right: 10px;
+    margin-top: 50px;
+
+
+
+
+}
+a{
+    color: orange;
+    font-weight: bold;
+}
+button{
+    background-color: orange;
+}
+footer{
+    color: black;
+    font-weight: bold  ;
+}
