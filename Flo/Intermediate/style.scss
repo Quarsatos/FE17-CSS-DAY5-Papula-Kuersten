@@ -2,6 +2,7 @@ $navcolor: rgb(51, 51, 129);
 $font: Arial, Comic;
 $navfontcolorstatic: grey;
 $navfontcoloractive: white;
+$gradient: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(89,86,81,1) 100%);
 
 
 * {
@@ -9,11 +10,34 @@ $navfontcoloractive: white;
     margin-top: 0;
 }
 body {
-    background-image: url(https://wallpapers.com/images/high/nikola-tesla-word-cloud-mwisdk4g27uo8cmp-mwisdk4g27uo8cmp.jpg)
-    display: absolute;
-
+    background-image: url(https://wallpapers.com/images/high/nikola-tesla-word-cloud-mwisdk4g27uo8cmp-mwisdk4g27uo8cmp.jpg);
+    background-repeat: no-repeat repeat-y;
+    background-size: 100%;
+    font-family: $font;
 
 }
+#quote {
+    background: $gradient;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 40%;
+    color: white;
+
+    div {
+        width: auto;
+        height: 100px;
+        padding: 65px;
+        font-size: 24px;
+        &:hover {
+            font-size: 28px;
+            transition: 5s;
+          }
+    }
+    
+    
+}
+
 @media screen and (max-width: 390px) {
     .resource-container {
       width: 100%;
@@ -53,7 +77,6 @@ body {
       // border: 1px solid blue;
       color: white;
       background-color: $navcolor;
-      font-family: $font;
       padding: 4px 16px;
       margin: 30px 0;
       border-radius: 5px;
