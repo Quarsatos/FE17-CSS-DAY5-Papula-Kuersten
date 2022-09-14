@@ -1,0 +1,68 @@
+$navcolor: rgb(51, 51, 129);
+$font: Arial, Comic;
+$navfontcolorstatic: grey;
+$navfontcoloractive: white;
+
+
+* {
+    padding: 0;
+    margin-top: 0;
+}
+body {
+    background-image: url(https://wallpapers.com/images/high/nikola-tesla-word-cloud-mwisdk4g27uo8cmp-mwisdk4g27uo8cmp.jpg)
+    display: absolute;
+
+
+}
+@media screen and (max-width: 390px) {
+    .resource-container {
+      width: 100%;
+      height: 100vh;
+    }
+    .resource-links {
+      width: 100%;
+      padding: 4px 0 4px 0;
+    }
+  }
+
+#logo {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+
+.navbar {
+    // border: 1px solid red;
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: $navcolor;
+    height: 80px;
+    
+  
+    .navlinks {
+      text-decoration: none;
+      // border: 1px solid blue;
+      color: white;
+      background-color: $navcolor;
+      font-family: $font;
+      padding: 4px 16px;
+      margin: 30px 0;
+      border-radius: 5px;
+      color: $navfontcolorstatic;
+      &:hover {
+        background-color: $navcolor;
+        transform: scale(1.2);
+        color: $navfontcoloractive;
+
+      }
+    }
+  }
