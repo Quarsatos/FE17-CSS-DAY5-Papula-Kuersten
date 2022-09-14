@@ -1,4 +1,81 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: black;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background: grey;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar_logo {
+  width: 250px;
+}
+.navbar .navbar_links {
+  border: 1px solid red;
+  flex-basis: 10%;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 4px 0 4px 0;
+  border-radius: 5px;
+  margin: 0 8px 0 8px;
+}
+.navbar .navbar_links:hover {
+  transform: scale(1.2);
+  background-color: red;
+}
+
+.container {
+  border: 1px solid black;
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-image: url("../images/guido-van-rossum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+.container .b_text {
+  font-size: 12px;
+}
+.container .text, .container .b_text {
+  width: 25%;
+  margin-right: 12%;
+  padding: 4px 0 4px 0;
+}
+
+.footer {
+  background: grey;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.footer .footer_text {
+  border: 1px solid red;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 0 4px 0;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.footer .footer_text:hover {
+  transform: scale(1.2);
+  background-color: red;
 }/*# sourceMappingURL=main.css.map */
